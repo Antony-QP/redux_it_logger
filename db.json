@@ -1,0 +1,50 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Updated station 06",
+      "attention": false,
+      "date": "01-05-2019",
+      "tech": "Jullie Wong"
+    },
+    {
+      "id": 2,
+      "message": "Changed hard drive on workstation 005",
+      "attention": false,
+      "date": "03-02-2019",
+      "tech": "Sam Smith"
+    },
+    {
+      "id": 3,
+      "message": "Monitor not working at station 07",
+      "attention": true,
+      "date": "28-10-2019",
+      "tech": "Nida Hand"
+    },
+    {
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Wonda",
+      "lastName": "Wen"
+    },
+    {
+      "id": 3,
+      "firstName": "Schott",
+      "lastName": "Chegg"
+    },
+    {
+      "firstName": "Boll",
+      "lastName": "Locks",
+      "id": 4
+    }
+  ]
+}
