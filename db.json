@@ -1,28 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Updated station 06",
-      "attention": false,
-      "date": "01-05-2019",
-      "tech": "Jullie Wong"
-    },
-    {
-      "id": 2,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
-    },
-    {
-      "id": 3,
-      "message": "Monitor not working at station 07",
+      "message": "Computer down at station 4",
       "attention": true,
-      "date": "28-10-2019",
-      "tech": "Nida Hand"
+      "tech": "Sally White",
+      "date": "2020-11-26T11:18:16.536Z",
+      "id": 1
     },
     {
-      "id": 4
+      "message": "Hard drive failed at workstation 5",
+      "attention": true,
+      "tech": "Belly Enda",
+      "date": "2020-11-26T11:18:41.248Z",
+      "id": 2
+    },
+    {
+      "message": "Wireless netowork fixed",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-11-26T11:19:00.180Z",
+      "id": 3
     }
   ],
   "techs": [
