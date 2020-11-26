@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+import { addLog } from '../../actions/logActions'
 import M from "materialize-css/dist/js/materialize.min.js";
 
 export const AddLogModal = () => {
@@ -81,9 +84,16 @@ export const AddLogModal = () => {
   );
 };
 
+AddLogModal.propTypes = {
+  addLog : PropTypes.func.isRequired,
+}
+
 const modalStyle = {
   width: "75%",
   height: "75%",
 };
 
-export default AddLogModal;
+const mapStateToProps = state => ({
+
+})
+export default connect(null, {addLog})(AddLogModal);
