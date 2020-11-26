@@ -1,11 +1,11 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Computer down at station 4",
-      "attention": true,
+      "attention": false,
       "tech": "Sally White",
-      "date": "2020-11-26T11:18:16.536Z",
-      "id": 1
+      "date": "2020-11-26T14:45:22.457Z"
     },
     {
       "message": "Hard drive failed at workstation 5",
@@ -13,13 +13,6 @@
       "tech": "Belly Enda",
       "date": "2020-11-26T11:18:41.248Z",
       "id": 2
-    },
-    {
-      "message": "Wireless netowork fixed",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-11-26T11:19:00.180Z",
-      "id": 3
     }
   ],
   "techs": [
